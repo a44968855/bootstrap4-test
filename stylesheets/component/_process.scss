@@ -1,0 +1,53 @@
+.process {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.process:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  height: 1px;
+  background-color: white;
+  top: 50%;
+}
+.process-circle {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  background-color: #3f5d45;
+  border: 1px solid white;
+  border-radius: 50%;
+  z-index: 2;
+}
+.process-circle.active:after {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  border-radius: 50%;
+  height: 14px;
+  width: 14px;
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.check {
+  position: absolute;
+  color: #3f5d45;
+  font-size: 12px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+}
+.process-sucess:after{
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  height: 1px;
+  background-color: #3f5d45;
+  top: 50%;
+}

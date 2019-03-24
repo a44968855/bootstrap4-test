@@ -1,0 +1,38 @@
+.card-text {
+  font-size: 1.25rem;
+}
+.card-car {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3f5d45;
+}
+.card-image {
+  position: relative;
+}
+.card-tag {
+  position: absolute;
+  writing-mode: vertical-lr;
+  padding: 0.625rem;
+  background-color: #3f5d45;
+  letter-spacing: 5px;
+  color: #fff;
+  left: 1.25rem;
+}
+.card-icon {
+  position: absolute;
+  font-size: 1.5rem;
+  right: 1.25rem;
+  top: 1.25rem;
+  color: #3f5d45;
+}
+@media (max-width: 992px) {
+  .card-items {
+    max-width: 300px;
+    text-align: center;
+  }
+}
+@media(max-width:992px){
+    .mail-section{
+        max-height:190px
+    }
+}

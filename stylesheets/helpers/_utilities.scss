@@ -1,0 +1,15 @@
+body {
+  font-size: 16px;
+  color: #8DA291;
+  font-family: PingFang TC;
+  font-weight: 400;
+}
+.bg-cover{
+  background-position:center center;
+  background-size: cover;
+}
+@media(max-width:768px){
+  .success-btn{
+    display:block
+  }
+}
