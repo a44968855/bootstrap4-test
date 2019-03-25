@@ -25,9 +25,10 @@
   top: 1.25rem;
   color: #3f5d45;
 }
+
 @media (max-width: 992px) {
   .card-items {
-    max-width: 300px;
+    max-width: 100%;
     text-align: center;
   }
 }

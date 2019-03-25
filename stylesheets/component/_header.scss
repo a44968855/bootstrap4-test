@@ -60,14 +60,18 @@
 .vertical-content{
   max-height:420px;
   line-height: 2;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 @media(max-width:992px){
     .content-text{
     writing-mode: inherit;
-    width: 80%;
     }
     .vertical-image{
         margin-top: 0px;
+    }
+    .vertical-content{
+      align-content: center
     }
 }
 //////////

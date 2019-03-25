@@ -11340,6 +11340,8 @@ body {
 .vertical-content {
   max-height: 420px;
   line-height: 2;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 @media (max-width: 992px) {
@@ -11347,10 +11349,13 @@ body {
     -webkit-writing-mode: inherit;
         -ms-writing-mode: inherit;
             writing-mode: inherit;
-    width: 80%;
   }
   .vertical-image {
     margin-top: 0px;
+  }
+  .vertical-content {
+    -ms-flex-line-pack: center;
+        align-content: center;
   }
 }
 
@@ -11400,7 +11405,7 @@ body {
 
 @media (max-width: 992px) {
   .card-items {
-    max-width: 300px;
+    max-width: 100%;
     text-align: center;
   }
 }
